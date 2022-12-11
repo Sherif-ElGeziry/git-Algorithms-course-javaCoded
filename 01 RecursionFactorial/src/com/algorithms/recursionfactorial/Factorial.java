@@ -1,7 +1,6 @@
 package com.algorithms.recursionfactorial;
 
 public class Factorial {
-	int value;
 
 	public int FactorialUsingRecursion(int value) {
 		if (value == 1) {
@@ -17,6 +16,7 @@ public class Factorial {
 		for (int i = 2; i <= value; i++) {
 			total *= i;
 		}
+
 		return total;
 	}
 }
