@@ -3,8 +3,9 @@ package com.algorithms.mergesort;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Integer[] array = { 6, 5, 2, 7, 15, 44, 12, 10 };
 
+		System.out.println(new MergeSort(array));
 	}
 
 }
